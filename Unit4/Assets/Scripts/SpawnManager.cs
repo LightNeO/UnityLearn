@@ -7,11 +7,13 @@ public class SpawnManager : MonoBehaviour
     [SerializeField] private GameObject enemyPrefab;
     private float swapnRange = 9.0f;
     public int enemyCount;
+    public int waveNumber = 1;
+    public GameObject powerUp;
 
     void Start()
     
     {
-        SpawnEnemyWave(3);
+        SpawnEnemyWave(waveNumber);
     }
 
     void Update()
@@ -20,7 +22,10 @@ public class SpawnManager : MonoBehaviour
 
         if(enemyCount == 0)
         {
-            SpawnEnemyWave(1);
+            waveNumber++;
+            SpawnEnemyWave(waveNumber);
+
+            Instantiate(powerUp, GenerateSpawnPosition(), powerUp.transform.rotation);
         }
     }
 
