@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638022830790096095
-    m_Hash: 728776223
+      ticks: 638033412232662910
+    m_Hash: 3529745186
   m_LockFileStatus:
     m_FilePath: D:/UnityProjects/UnityLearn/Unit4/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638022830841235192
-    m_Hash: 2249468046
+      ticks: 638033412232662910
+    m_Hash: 173850735
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -2803,6 +2803,7 @@ m_PackageAssets:
         - 1.4.2
         - 1.4.3
         - 1.5.2
+        - 1.6.0
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -2820,6 +2821,7 @@ m_PackageAssets:
         - 1.4.2
         - 1.4.3
         - 1.5.2
+        - 1.6.0
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest

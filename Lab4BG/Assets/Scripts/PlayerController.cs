@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 30.0f;
-    private float zBound = 6;
+    [SerializeField] private float speed = 30.0f;
+    private float zBound = 13;
     private Rigidbody playerRb;
 
     void Start()
